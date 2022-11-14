@@ -1,6 +1,14 @@
+using API.Backend.Models;
+using API.Backend.Repo;
+using API.Backend.ServiceLayer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IRepo, Repo>();
+builder.Services.AddScoped<IServiceLayer, ServiceLayer>();
+builder.Services.AddDbContext<EmployeeContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
