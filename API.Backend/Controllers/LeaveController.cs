@@ -2,6 +2,7 @@
 using API.Backend.ServiceLayer;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace API.Backend.Controllers
 {
     [ApiController]
@@ -19,6 +20,14 @@ namespace API.Backend.Controllers
         public Task<List<EmployeeLeave>> Get()
         {
             return _serviceLayer.GetLeaves();
+        }
+
+        [HttpPost("Leaves/add")]
+        public async Task<IActionResult> Post([FromBody] EmployeeLeave data)
+        {
+            await _serviceLayer.AddLeave(data);
+
+            return StatusCode(200);
         }
     }
 }

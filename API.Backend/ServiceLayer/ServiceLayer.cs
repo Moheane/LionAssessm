@@ -14,5 +14,11 @@ namespace API.Backend.ServiceLayer
         {
             return _repo.GetLeaves();
         }
+
+        public async Task<bool> AddLeave(EmployeeLeave emp)
+        {
+            await _repo.AddLeave(emp);
+            return true;
+        }
     }
 }

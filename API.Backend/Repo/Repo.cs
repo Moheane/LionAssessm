@@ -17,5 +17,13 @@ namespace API.Backend.Repo
             var results = await _EmployeeContext.EmployeeLeaves.ToListAsync();
             return results;
         }
+
+        public async Task<bool> AddLeave(EmployeeLeave emp)
+        {
+            await _EmployeeContext.EmployeeLeaves.AddAsync(emp);
+            await _EmployeeContext.SaveChangesAsync();
+
+            return true;
+        }
     }
 }
