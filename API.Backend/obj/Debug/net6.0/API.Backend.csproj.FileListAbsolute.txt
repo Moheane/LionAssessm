@@ -82,3 +82,9 @@ C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\obj\Debug\net6.0\API.Bac
 C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\obj\Debug\net6.0\ref\API.Backend.dll
 C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\Google.Apis.Calendar.v3.dll
+C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\ramahadiM\source\repos\API.Backend\API.Backend\bin\Debug\net6.0\Newtonsoft.Json.dll
