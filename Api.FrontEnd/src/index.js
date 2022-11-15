@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+
 import Broker from './pages/request';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/home';
@@ -14,7 +16,7 @@ root.render(
   <Routes>
     <Route path="/" element={<App />}>
       <Route path="/" element={<Home />} />
-        <Route path="/broker" element={<Broker />} />
+        <Route path="/request" element={<Broker />} />
 
     </Route>
   </Routes>

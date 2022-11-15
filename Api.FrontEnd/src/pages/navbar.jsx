@@ -28,7 +28,7 @@ export default function Navbar() {
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">
-        <Link to="request">LEAVE REQUEST</Link>
+        <Link to="/request">LEAVE REQUEST</Link>
         </a>
       </li>
       
