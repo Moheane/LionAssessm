@@ -11,6 +11,10 @@ public partial class EmployeeLeave
 
     public string LastName { get; set; } = null!;
 
+    public string TypeofLeave { get; set; } = null!;
+
+    public string Reason { get; set; } = null!;
+
     public DateTime LeaveStart { get; set; }
 
     public DateTime LeaveEnd { get; set; }

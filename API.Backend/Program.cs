@@ -1,3 +1,4 @@
+//using API.Backend.Models;
 using API.Backend.Models;
 using API.Backend.Repo;
 using API.Backend.ServiceLayer;
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IRepo, Repo>();
 builder.Services.AddScoped<IServiceLayer, ServiceLayer>();
+
 builder.Services.AddDbContext<EmployeeContext>();
 
 builder.Services.AddControllers();
