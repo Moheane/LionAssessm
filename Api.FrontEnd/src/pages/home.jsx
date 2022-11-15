@@ -35,6 +35,8 @@ const getAllTheBrokerF = () => {
         <tr>
           <th>First Name</th>
           <th>Last Name</th>
+          <th>Leave Type</th>
+          <th>Leave Reason</th>
           <th>leave Start</th>
           <th>leave End</th>
           <th>total Leaves Taken</th>
@@ -46,6 +48,8 @@ const getAllTheBrokerF = () => {
             <tr key={i}>
               <td>{item.firstName}</td>
               <td>{item.lastName}</td>
+              <td>{item.typeofLeave}</td>
+              <td>{item.reason}</td>
               <td>{item.leaveStart}</td>
               <td>{item.leaveEnd}</td>
               <td>{item.totalLeavesTaken}</td>
